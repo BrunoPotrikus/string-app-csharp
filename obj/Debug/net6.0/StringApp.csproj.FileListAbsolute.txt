@@ -1,0 +1,15 @@
+C:\Users\RafaelB\Desktop\dev\StringApp\bin\Debug\net6.0\StringApp.exe
+C:\Users\RafaelB\Desktop\dev\StringApp\bin\Debug\net6.0\StringApp.deps.json
+C:\Users\RafaelB\Desktop\dev\StringApp\bin\Debug\net6.0\StringApp.runtimeconfig.json
+C:\Users\RafaelB\Desktop\dev\StringApp\bin\Debug\net6.0\StringApp.dll
+C:\Users\RafaelB\Desktop\dev\StringApp\bin\Debug\net6.0\StringApp.pdb
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\StringApp.csproj.AssemblyReference.cache
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\StringApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\StringApp.AssemblyInfoInputs.cache
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\StringApp.AssemblyInfo.cs
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\StringApp.csproj.CoreCompileInputs.cache
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\StringApp.dll
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\refint\StringApp.dll
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\StringApp.pdb
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\StringApp.genruntimeconfig.cache
+C:\Users\RafaelB\Desktop\dev\StringApp\obj\Debug\net6.0\ref\StringApp.dll
