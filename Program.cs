@@ -40,6 +40,10 @@ class Program
         Console.WriteLine();
         Console.WriteLine("Utilizando Insert e Remove");
         InsertRemove();
+
+        Console.WriteLine();
+        Console.WriteLine("Utilizando Replace e Split");
+        ReplaceSplit();
     }
 
     static void Interpolation()
@@ -110,5 +114,29 @@ class Program
         var text = "Este é um texto de teste";
         Console.WriteLine(text.Insert(text.IndexOf(" "), "AQUI "));
         Console.WriteLine(text.Remove(5, 5));
+    }
+
+    static void ReplaceSplit()
+    {
+        var text = "Este é um texto de teste";
+        Console.WriteLine(text);
+        Console.WriteLine(text.Replace("texto", "string"));
+        var textSplit = text.Split(" ");
+        
+
+        for (var cont = 0; cont < textSplit.Length; cont++)
+        {
+            Console.WriteLine(textSplit[cont]);
+        }
+
+        var result = text.Substring((textSplit[0].Length + 1
+                                   + textSplit[1].Length + 1
+                                   + textSplit[2].Length + 1), textSplit[3].Length);
+        Console.WriteLine(result);
+
+        var testText = " Outro texto de teste ";
+        Console.WriteLine(testText);
+        Console.WriteLine("Removendo espaços utilizando Trim");
+        Console.WriteLine(testText.Trim());
     }
 }
