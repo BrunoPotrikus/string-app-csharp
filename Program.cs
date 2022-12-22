@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Text;
+
 class Program
 {
     static void Main(string[] args)
@@ -42,8 +44,12 @@ class Program
         InsertRemove();
 
         Console.WriteLine();
-        Console.WriteLine("Utilizando Replace e Split");
+        Console.WriteLine("Utilizando Replace, Split, Substring e Trim");
         ReplaceSplit();
+
+        Console.WriteLine();
+        Console.WriteLine("Utilizando StringBuilder");
+        StringBuilderFunc();
     }
 
     static void Interpolation()
@@ -138,5 +144,16 @@ class Program
         Console.WriteLine(testText);
         Console.WriteLine("Removendo espaços utilizando Trim");
         Console.WriteLine(testText.Trim());
+    }
+
+    static void StringBuilderFunc()
+    {
+        var text = new StringBuilder();
+
+        text.Append("Adicionando texto para teste.");
+        text.Append("Mais um texto para testar o StringBuilder.");
+        text.Append("Outro texto de teste.");
+
+        Console.WriteLine(text); 
     }
 }
